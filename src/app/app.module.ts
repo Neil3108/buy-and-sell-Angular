@@ -10,6 +10,7 @@ import { MyListingsPageComponent } from './my-listings-page/my-listings-page.com
 import { NewListingsPageComponent } from './new-listings-page/new-listings-page.component';
 import { EditLisitingPageComponent } from './edit-lisiting-page/edit-lisiting-page.component';
 import { FormsModule } from '@angular/forms';
+import { ListingDataFormComponent } from './listing-data-form/listing-data-form.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     ContactPageComponent,
     MyListingsPageComponent,
     NewListingsPageComponent,
-    EditLisitingPageComponent
+    EditLisitingPageComponent,
+    ListingDataFormComponent
   ],
   imports: [
     BrowserModule,
