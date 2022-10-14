@@ -3,5 +3,6 @@
     <app-listing-data-form buttonText = "Save Changes"
     [currentName]="listing.name"
     [currentDiscription]="listing.description"
+    [currentPrice]=$any(listing.price)
     (onSubmit)="onSubmit()"></app-listing-data-form>
 </div>
