@@ -11,6 +11,7 @@ import { NewListingsPageComponent } from './new-listings-page/new-listings-page.
 import { EditLisitingPageComponent } from './edit-lisiting-page/edit-lisiting-page.component';
 import { FormsModule } from '@angular/forms';
 import { ListingDataFormComponent } from './listing-data-form/listing-data-form.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ListingDataFormComponent } from './listing-data-form/listing-data-form.
     MyListingsPageComponent,
     NewListingsPageComponent,
     EditLisitingPageComponent,
-    ListingDataFormComponent
+    ListingDataFormComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
